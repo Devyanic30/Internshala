@@ -1,0 +1,435 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter var',sans-serif;
+}
+/* navigation */
+.navbar {
+  padding-right: 40px;
+}
+.navbar .navbar-nav .nav-item {
+  color: #000;
+  font-weight: normal;
+}
+
+/* navigation - dropdown */
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+   margin-top: 0;
+}
+.navbar .navbar-nav .dropdown a:hover {
+    color: #33A4FF;
+}
+.navbar .navbar-nav .dropdown a {
+  color: #000;
+  font-weight: normal;
+}
+.dropdown .btn {
+  padding: 5px;
+  width: 120px;
+  background-color: #33A4FF;
+  border: none;
+}
+.dropdown .dropdown-menu {
+  width: 200px;
+}
+.dropdown-menu ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.navbar-collapse ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* navigation - login*/
+.info {
+  border-color: #33A4FF;
+  color: dodgerblue;
+}
+.btn {
+  margin-right: 20px;
+  height: 40px;
+  font-weight: normal;
+}
+.btn1 {
+  border: none;
+  background-color: orange;
+  padding: 2;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-hover {
+  width: 80px;
+}
+.btn-hover:hover {
+  background-color: white;
+  color:#33A4FF;
+}
+
+/* search  */
+.main {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.search {
+  background-color: #33A4FF;
+  color: white;
+}
+.main .input-group .form-control {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+
+/* banner */
+.carousel{
+  border: 1px solid #fff;
+  height: 450px;
+  box-sizing: border-box;
+  width: 90%;
+}
+.carousel-inner{
+  height: 400px;
+}
+.slide3 {
+  font-weight: 500;
+  margin-bottom: 10%;
+}
+.carousel-item img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+.carousel-item:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.slide3 h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.slide3 ul li {
+  text-decoration: none;
+  list-style-type: none;
+  color: grey;
+  padding: 5px;
+  font-size: 20px;
+}
+.slide3 h2, li {
+  color: #000;
+  text-align: left;
+}
+.slide3 p {
+  color: #33A4FF;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+}
+.slide1 {
+  margin-bottom: 10%;
+  padding: 10px;
+  font-weight: 500;
+  text-align: left;
+}
+.slide1 h3 {
+  padding-top: 10px;
+  font-weight: bold;
+}
+.slide1 h4 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.slide1 h1 {
+  font-weight: bold;
+}
+
+.slide1 ul li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+}
+.slide1 p {
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.slide2 {
+
+  margin-bottom: 10%;
+  font-weight: 500;
+  text-align: left;
+}
+.slide2 h1 {
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 10px;
+}
+.slide2 h3 {
+  font-weight: 700;
+  color: #000;
+
+}
+.slide2 h5 {
+  color: #000;
+  font-weight: 600;
+}
+.slide2 p {
+  font-weight: 600;
+  cursor: pointer;
+  color: #000;
+}
+
+
+
+
+/* Internships */
+.internship-main {
+  padding: 20px;
+}
+.internship-main h2 {
+  font-weight: bold;
+}
+.internship-main .text {
+  font-size: 18px;
+  color: grey;
+}
+.internship-main p {
+
+}
+.internship-main .nav-text {
+  color: #33A4FF;
+  font-weight: bold;
+}
+.internship-main .nav-text:hover {
+  color: #33A4FF;
+}
+
+
+
+/* Popular cities */
+.popular-cities h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.popular-cities ul li {
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+.cities-img:hover {
+  
+}
+.img-box {
+  margin-top: 10px;
+  padding: 10px;
+}
+.img-box:hover {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+}
+.cities-text {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+/* Popular categories */
+.popular-categories {
+  padding: 0;
+  margin: 0;
+}
+.popular-categories h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.popular-categories ul li {
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+.categories-img:hover {
+  
+}
+.img-box {
+  margin-top: 10px;
+  padding: 10px;
+}
+.img-box:hover {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+}
+.categories-text {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+/* Internship Trainings */
+.internship-trainings-main {
+  padding: 20px;
+}
+.internship-trainings-main h2 {
+  font-weight: bold;
+}
+.internship-trainings-main .text {
+  font-size: 18px;
+  color: grey;
+}
+.internship-trainings-main p {
+
+}
+.internship-trainings-main .nav-text {
+  color: #33A4FF;
+  font-weight: bold;
+}
+.internship-trainings-main .nav-text:hover {
+  color: #33A4FF;
+}
+
+.trainings-main {
+  padding: 0;
+  margin: 0;
+}
+
+.trainings-main ul li {
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+.trainings-main .more {
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Fresher jobs */
+.badge {
+  color: white;
+}
+.fresher-jobs-main {
+  padding: 20px;
+}
+.fresher-jobs-main h2 {
+  font-weight: bold;
+}
+.fresher-jobs-main .text {
+  font-size: 18px;
+  color: grey;
+}
+.fresher-jobs-main .nav-text {
+  color: #33A4FF;
+  font-weight: bold;
+}
+.fresher-jobs-main .nav-text:hover {
+  color: #33A4FF;
+}
+
+.jobs-main {
+  margin-right: 50px;
+}
+.jobs-box {
+  width: 300px;
+}
+.jobs-main ul li {
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+.jobs-main .more {
+  padding: 10px;
+  text-align: center;
+}
+.jobs-main p {
+  font-weight: bold;
+}
+
+
+
+
+/* footer */
+footer {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+#button-addon1 {
+    color: #ffc371
+}
+
+i {
+    color: #0000cc;
+    font-size: 20px
+}
+
+hr {
+    border-top: 1px solid #F7F9F9 ;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+
+}
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+.default {
+  border-color: #e7e7e7;
+  color: #fff;
+}
+
+.default:hover {
+  border-color: #e7e7e7;
+  color: #fff; 
+}
+
+.social-container ul li {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: inline;
+}
